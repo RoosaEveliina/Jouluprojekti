@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <title>Joulu2020</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <div class="container">
+              <a class="navbar-brand" href="surprise.html">
+                <img src="img/secretsanta.png" height= "80" alt="logo" id="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                  <div class="collapse navbar-collapse" id="navbar">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Etusivu</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="greetings.html">Terveiset</a>
+                          </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="Presents.html">Lahjat</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="wishlist.html">Toiveet</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="music.html">Musiikkia</a>
+                      </li>
+                      </ul>
+                  </div>
+            </div>
+          </nav>
+            
+          <h1>Tämän joulun lahjat:</h1>
+
+          <p>Klikkaa nimeäsi avataksesi lahjasi!</p>
+
+
+         <p>Ps. Lisää infoa lahjoista: <br>
+        <a href="https://joulupuu.org/"><img class="img-fluid img-thumbnail" src="img/joulupuu.JPG" alt="joulupuukeräys" style="height: 100px; width: 100px;"></a></p>
+
+          
+          <div class="container container-fluid">
+              <div class="row">
+                  <div class="col-md-4"><img id="image1" class="img-fluid img-rounded" src="img/lahja2.jpg" alt="a present">
+                      <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture1()">Sisko</button></div>
+                  <div class="col-md-4"><img id="image2" class="img-fluid img-rounded" src="img/present2.jpg" alt="a present">
+                      <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture2()">Äiti</button></div>
+                  <div class="col-md-4"><img id="image3" class="img-fluid img-rounded" src="img/lahja1.jpg" alt="a present">
+                      <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture3()">Isä</button></div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <img id="image4" class="img-fluid img-rounded" src="img/lahja4.jpg" alt="a present">
+                    <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture4()">Veli</button></div>
+                <div class="col-md-4">
+                  <img id="image5" class="img-fluid img-rounded" src="img/lahja5.jpg" alt="a present">
+                    <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture5()">Täti</button></div>
+                <div class="col-md-4">
+                  <img id="image6" class="img-fluid img-rounded" src="img/present1.jpg" alt="a present">
+                    <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture6()">Mummi</button></div>
+            </div>
+            <div class="row">
+              <div class="col-md-4"><img id="image7" class="img-fluid img-rounded" src="img/present7.jpg" alt="a present">
+                  <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture7()">Serkku</button></div>
+              <div class="col-md-4"><img id="image8" class="img-fluid img-rounded" src="img/present8.jpg" alt="a present">
+                  <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture8()">Anoppi</button></div>
+              <div class="col-md-4"><img id="image9" class="img-fluid img-rounded" src="img/present3.jpg" alt="a present">
+                  <button type="button" class="btn btn-light btn-lg btn-block" onclick="changePicture9()">Puoliso</button></div>
+          </div>
+          </div>
+
+    
+          
+         
+    
+          
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+
+            <footer>
+          <p id="myFooter">&#169; Copyright Roosa Turunen2020</p>
+      </footer>  
+            </div>   
+            </div>
+          </div>
+        
+    
+          
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>    
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+  </body>
+</html>

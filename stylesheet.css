@@ -1,0 +1,280 @@
+
+body, html {
+    height:100%;
+    margin: 0;
+    padding:0;
+    background-color: #e4f0e5;
+    font-family: sans-serif;
+}
+
+.bg {
+     background-image: url('img/cones.jpg');
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: mintcream;
+     text-align: center;    
+ }
+
+ .countdownContainer{
+    margin-left: auto;   
+     margin-right: auto;
+}
+
+ .info {
+    font-size: 80px;
+}
+
+.times {
+    font-size: 20px;
+}
+
+.count {
+    font-size: 80px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    padding: 80px;
+    color: #18272e;
+    background-color: #e0e8dd;
+}
+
+.santa {
+    background-image: url(img/snowsnow.gif);
+     height: 100%;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     color: black;
+     text-align: right;
+     margin: 0;
+     padding: 0;
+}
+
+#topsecret {
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: #cc0000;
+    background-color: white;
+    margin: 0;
+    padding: 20px; 
+    border-style: solid;
+    border-color: #cc0000;
+}
+
+footer {
+    text-align: center;
+    background-color: #e4f0e5;
+    color: black;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: small;
+}
+
+#myFooter {
+    font-size: small;
+    margin-bottom: 0;
+}
+
+p {
+    padding: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+
+fieldset{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    background-color: cornsilk;
+    text-align: center;
+    width: fit-content;
+    border-radius: 40px;
+    border: 1px solid black;
+    padding: 40px;
+    font-size: 15px;
+    box-shadow: 0 0 15px 4px silver;
+    font-family: 'Courier New', Courier, monospace , Cursive;
+    font-weight: bold;
+    font-size:20px;
+}
+
+legend{
+     font-size: 30px;
+     background-color:darkslategrey;
+     color: white;
+     border-radius: 40px;
+     border: 1px solid black;
+     width: 400px;
+}
+
+input{
+     margin-bottom: 10px;
+}
+
+#inputbutton {
+    color:white;
+    background: linear-gradient(to bottom, #093028,#237A57);
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 6px navajowhite;
+  }
+
+#inputbutton:hover {
+    background: linear-gradient(to bottom, #093028,#237A57);
+}
+
+#inputbutton:active {
+    box-shadow: 0 5px burlywood;
+    transform: translateY(4px);
+  }
+
+select{
+     margin-bottom: 10px;
+}
+
+.greetings {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: mintcream;
+    text-align: center;   
+}
+
+.myButton {
+    background-color: #B0DAB9;
+    border: 1px solid #003300;
+    color: rgb(8, 34, 8);
+    font-size: 20px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+.myButton:hover {
+    opacity: 0.6;
+}
+
+#myMerry {
+    color: black;
+    padding: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#myHello {
+    color: black;
+    padding: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+#myHohoho {
+    color: black;
+    padding: 40px;
+    margin-top: 10px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.greeting {
+    margin-top: 70px;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: darkslategrey;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+}
+  
+.greeting:hover .overlay {
+    width: 100%;
+}
+  
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+} 
+
+.music {
+      text-align: center;
+      background-image: url('img/pinecones.jpeg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+iframe {
+    width: 800px; 
+    height: 550px; 
+    margin: 50px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .bg  {
+        background-image: url('img/paketit.jpg');
+        padding-top: 20px;
+    }
+    .info{
+        font-size: 50px;
+    }
+    .count{
+        font-size: 40px;
+    }
+    .times {
+        font-size: large;
+    }
+    legend {
+        width: fit-content;
+    }
+    fieldset {
+        width: fit-content;
+        font-size: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    iframe {
+        width: fit-content;
+        height: fit-content;
+        margin: 100px 10px 100px;
+    }
+}
+

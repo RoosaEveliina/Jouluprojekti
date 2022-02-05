@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <link rel="stylesheet" href="stylesheet.css">
+
+        <title>Joulu2020</title>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-light bg-light navbar-expand-md">
+            <div class="container">
+              <a class="navbar-brand" href="surprise.html">
+                <img src="img/secretsanta.png" height= "80" alt="logo" id="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                  <div class="collapse navbar-collapse" id="navbar">
+                      <ul class="navbar-nav ml-auto">
+                          <li class="nav-item">
+                            <a class="nav-link" href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Etusivu</a>
+                          </li>
+                          <li class="nav-item active">
+                              <a class="nav-link" href="greetings.html">Terveiset</a>
+                          </li>
+                          <li class="nav-item">
+                              <a class="nav-link" href="Presents.html">Lahjat</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="wishlist.html">Toiveet</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="music.html">Musiikkia</a>
+                      </li>
+                      </ul>
+                  </div>
+            </div>
+          </nav>
+
+          <h1>Jouluterveiset</h1>
+
+          <div class= "greetings">
+            <div class="container-fluid">
+             <div class="row">
+
+              <div class="col-md-4">
+                <div class="greeting">
+                  <img class="img-fluid" src="img/reindeergreeting.jpg" alt="reindeer">
+                  <div class="overlay">
+                    <div class="text">Heipä hei! <br>Nimeni on Petteri Punakuono</div>
+                  </div>
+                </div>
+                  <button class="myButton btn btn-light" type="button" onclick="revealGreeting2()">Katso tervehdykseni!</button>
+                   <div id="myMerry" style="display: none;">
+                    Yhtä lahjaa en paketoinut,<br>
+                    ei sitä kääreessä antaa voinut,<br>
+                    lahjan tämän tärkeimmän sydämestäni lähetän.<br>
+                    Iloa, riemua, rauhaa syvää,<br>
+                    toivon sinulle Joulua hyvää.</div>
+                  </div> 
+         
+              <div class="col-md-4">
+                <div class="greeting">
+                  <img class="img-fluid" src="img/snowmangreeting.jpg" alt="snowman">
+                  <div class="overlay">
+                    <div class="text">Hei vain! <br>Olen Lumiukko</div>
+                  </div>
+                </div>
+                  <button class="myButton btn btn-light" type="button" onclick="revealGreeting3()">Katso tervehdykseni!</button>
+                   <div id="myHohoho" style="display: none;">
+                    Pipareita, pöperöitä,<br>
+                    iloisia nassuja ja täysiä massuja,<br>
+                    joulumieltä aitoa ja ymmärtämisen taitoa,<br</bre>
+                    iloisia retkiä ja lämpöisiä hetkiä.</div>
+                  </div>  
+              
+              <div class="col-md-4">
+                <div class="greeting">
+                  <img class="img-fluid" src="img/santagreeting.jpg" alt="Santa Claus">
+                  <div class="overlay">
+                    <div class="text">Ho ho ho! <br>Olen Joulupukki</div>
+                  </div>
+                </div>
+                  <button class="myButton btn btn-light" type="button" onclick="revealGreeting()">Katso tervehdykseni!</button>
+                   <div id="myHello" style="display: none;">
+                    Joulun aikaa,<br>
+                    Joulun taikaa.<br>
+                    Iloista oloa ja joulumieltä,<br>
+                    hyvä olo löytyy sieltä.<br>
+                    Hauskaa Joulua!</div>
+               </div>
+            </div>
+          </div>
+          </div>
+
+
+        <footer>
+          <p id="myFooter">&#169; Copyright Roosa Turunen2020</p>
+      </footer>
+        
+          
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>     
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+  </body>
+</html>
+
